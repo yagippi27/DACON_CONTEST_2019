@@ -14,11 +14,6 @@ part 2. <br>
 
 <br><br>
 
-## 참고
-
-
-<br><br>
-
 ## 개발환경
 * Windows 7 Professional K
 * R studio, Python Jupyter Notebook, Kaggle Kernel 예상
@@ -26,6 +21,11 @@ part 2. <br>
 <br><br>
 
 ## 일정
+
+<br><br>
+
+## 참고
+
 
 
 
