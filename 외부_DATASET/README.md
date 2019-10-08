@@ -11,3 +11,8 @@ https://www.data.go.kr/dataset/3078612/fileData.do
 전력 빅데이터 센터<br>
 가구 평균 전력사용량<br>
 https://home.kepco.co.kr/kepco/BD/BDBAPP005/BDBAPP005.do?menuCd=FN33020105#clickExcel
+
+8.시군구별 전력사용량_2018<br>
+한국전력공사<br>
+시군구별 전력 판매량<br>
+https://home.kepco.co.kr/kepco/KO/ntcob/list.do?boardCd=BRD_000283&menuCd=FN05030105
