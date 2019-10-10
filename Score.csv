@@ -1,0 +1,8 @@
+output,score
+avg_per_hour_ARIMA,39.581693
+r48_med_ARIMA,39.735877
+NA_DACON_method_r48_med_ARIMA,39.790276
+NA_DACON_method_avg_per_hour_ARIMA,39.883745
+NA_DACON_method_ARIMA,41.272320
+NA_DACON_method_r48_mean_ARIMA,41.272320
+ARIMA,41.41944
