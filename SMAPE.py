@@ -15,8 +15,12 @@ def smape_fast(df_y_true, df_y_pred):
     from numba import jit
     import math
     out = 0
-    y_true = df_y_true.drop(df_y_true.columns[0], axis=1).values.reshape(-1)
-    y_pred = df_y_pred.drop(df_y_pred.columns[0], axis=1).values.reshape(-1)    
+    if len(df_y_true.columns) > 1:
+        y_true = df_y_true.drop(df_y_true.columns[0], axis=1).values.reshape(-1)
+        y_pred = df_y_pred.drop(df_y_pred.columns[0], axis=1).values.reshape(-1)
+    else:
+        y_true = df_y_true.values.reshape(-1)
+        y_pred = df_y_pred.values.reshape(-1)
     for i in range(y_true.shape[0]):
         a = y_true[i]
         b = y_pred[i]
